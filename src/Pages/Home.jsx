@@ -1,11 +1,14 @@
 import React from "react";
 import App from "../App";
 import Layout from "../Components/Layout";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Home = () => {
+  
   return (
     <Layout>
-              <div>
+      <div>
+        {/* Hero Section */}
         <section className="bg-secondary py-8 md:py-16 lg:py-20 overflow-hidden lg:px-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-12">
@@ -61,7 +64,7 @@ const Home = () => {
             <div className="flex flex-nowrap md:grid md:grid-cols-4 gap-6 min-w-max md:min-w-0">
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <img
-                  src="/assets/James-Clear-Habits-Speaker.jpg"
+                  src="https://brenebrown.com/wp-content/uploads/2021/11/Podcast-DTL-GuestCover-JamesClear-1.jpg"
                   alt="James Clear"
                   className="w-10 h-10 rounded-full object-cover"
                 />
@@ -70,7 +73,7 @@ const Home = () => {
               </div>
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <img
-                  src="/assets/Napoleon-Hill.jpg"
+                  src="https://www.toolshero.com/wp-content/uploads/2016/10/napoleon-hill-biography-toolshero.jpg"
                   alt="Napoleon Hill"
                   className="w-10 h-10 rounded-full object-cover"
                 />
@@ -79,7 +82,7 @@ const Home = () => {
               </div>
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <img
-                  src="/assets/Robert-Kiyosaki.jpeg"
+                  src="https://awsimages.detik.net.id/visual/2021/07/07/robert-kiyosaki-dok-basabaliorg_169.jpeg?w=650"
                   alt="Robert Kiyosaki"
                   className="w-10 h-10 rounded-full object-cover"
                 />
@@ -88,7 +91,7 @@ const Home = () => {
               </div>
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <img
-                  src="/assets/Brian-Tracy-Speaker.webp"
+                  src="https://www.speakersassociates.com/wp-content/uploads/2021/12/Brian-Tracy-Speaker.jpg"
                   alt="Brian Tracy"
                   className="w-10 h-10 rounded-full object-cover"
                 />
@@ -115,14 +118,14 @@ const Home = () => {
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
               {/* Book Card 1 */}
               <a
-                href="/detail-book1.html"
+                href="/Atomic-Habits"
                 className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm"
               >
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/Atomic_Habits.png"
+                    src="https://i0.wp.com/freedom.to/blog/wp-content/uploads/2018/10/Atomic_Habits-2.png?fit=1024%2C1012&ssl=1"
                     alt="Atomic Habits"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="p-3 sm:p-4">
@@ -154,7 +157,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/How-To-Talk-To-Anyone-1.webp"
+                    src="https://harvilleandhelen.com/wp-content/uploads/2024/07/HTTWAAA-Cover-3D-Left-070124-663x1024.png"
                     alt="How to talk to anyone"
                     className="w-full h-full object-contain p-4"
                   />
@@ -164,7 +167,7 @@ const Home = () => {
                     How To Talk To Anyone
                   </h3>
                   <p className="text-xs sm:text-sm text-light mb-2 line-clamp-1">
-                    By : Leil Lowndes
+                    By : Harville & Hellen
                   </p>
                   <div className="flex items-center gap-1 mb-2 sm:mb-3">
                     <div className="text-yellow-400 text-xs sm:text-sm">
@@ -188,7 +191,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/Who Moved My Cheese.jpeg"
+                    src="https://cdn.gramedia.com/uploads/items/9786020488608_Who-Moved-My-Cheese-Edisi-2019.jpg"
                     alt="Who Moved My Cheese"
                     className="w-full h-full object-contain p-4"
                   />
@@ -222,9 +225,9 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/psychology_of_money.png"
+                    src="https://bookpadho.com/wp-content/uploads/2025/02/1740040199.png"
                     alt="The Psychology of Money"
-                    className="w-full h-full object-contain p-4"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="p-3 sm:p-4">
@@ -271,9 +274,9 @@ const Home = () => {
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="/assets/History.jpg"
+                    src="https://brewminate.com/wp-content/uploads/2020/02/GeorgeThompsonTeachingHistory01.png"
                     alt="History"
-                    className="w-6 h-6 sm:w-7 sm:h-7"
+                    className="w-6 h-6 sm:w-7 sm:h-7 rounded"
                   />
                 </div>
                 <span>History</span>
@@ -282,9 +285,9 @@ const Home = () => {
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="/assets/Child-Book.jpeg"
+                    src="https://img.freepik.com/free-vector/hand-drawn-children-book-illustration_23-2150837953.jpg?semt=ais_hybrid&w=740"
                     alt="Children's corner"
-                    className="w-6 h-6 sm:w-7 sm:h-7"
+                    className="w-6 h-6 sm:w-7 sm:h-7 rounded"
                   />
                 </div>
                 <span>Children's corner</span>
@@ -293,9 +296,9 @@ const Home = () => {
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="/assets/book-with-universe-scene-icons.jpg"
+                    src="https://t3.ftcdn.net/jpg/06/25/93/98/360_F_625939867_HzeWF5BwM1S1SOeK0hu2WzErLm0cyo8E.jpg"
                     alt="Science fiction"
-                    className="w-6 h-6 sm:w-7 sm:h-7"
+                    className="w-6 h-6 sm:w-7 sm:h-7 rounded"
                   />
                 </div>
                 <span>Science fiction</span>
@@ -304,9 +307,9 @@ const Home = () => {
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="/assets/Listening-Wide-Lens.png"
+                    src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaBym_L4wJi221Fomu4wO9M7eVmvXfdfXV9uqMPnnR_GqDkEVr"
                     alt="Self improvement"
-                    className="w-6 h-6 sm:w-7 sm:h-7"
+                    className="w-6 h-6 sm:w-7 sm:h-7 rounded"
                   />
                 </div>
                 <span>Self improvement</span>
@@ -315,9 +318,9 @@ const Home = () => {
               <div className="flex items-center gap-3 text-light whitespace-nowrap">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-100 rounded-lg flex items-center justify-center">
                   <img
-                    src="/assets/comic.jpg"
+                    src="https://newretro.net/cdn/shop/articles/DALL_E_2024-06-13_10.11.22_-_A_classic_1980s_comic_book_hero_team_wearing_vibrant_matching_costumes_standing_together_in_a_triumphant_pose_with_a_dramatic_cityscape_and_a_brigh.webp?v=1718262859"
                     alt="Comics"
-                    className="w-6 h-6 sm:w-7 sm:h-7"
+                    className="w-6 h-6 sm:w-7 sm:h-7 rounded"
                   />
                 </div>
                 <span>Comics</span>
@@ -345,9 +348,9 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/House of Stars.jpg"
+                    src="https://sakshinarula.com/wp-content/uploads/2023/06/1687475864.png"
                     alt="House of Stars"
-                    className="w-full h-full object-contain p-4"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div className="p-3 sm:p-4">
@@ -355,7 +358,7 @@ const Home = () => {
                     House of Stars
                   </h3>
                   <p className="text-xs sm:text-sm text-light mb-2 line-clamp-1">
-                    By John Smith
+                    By Sakshi Narula
                   </p>
                   <div className="flex items-center gap-1 mb-2 sm:mb-3">
                     <div className="text-yellow-400 text-xs sm:text-sm">
@@ -379,7 +382,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/the alchemist.jpeg"
+                    src="https://bookbins.b-cdn.net/wp-content/uploads/2024/04/The-Alchemist-Paulo-Coelho-Buy-Online-Bookbins-1.png"
                     alt="The Alchemist"
                     className="w-full h-full object-contain p-4"
                   />
@@ -413,7 +416,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/The Night Circus by Erin Morgenstern  Goodreads.jpg"
+                    src="https://i0.wp.com/femalescriblerian.com/wp-content/uploads/2013/04/the-night-circus.png?ssl=1"
                     alt="The Night Circus"
                     className="w-full h-full object-contain p-4"
                   />
@@ -447,7 +450,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/The Calculating Stars by Mary Robinette Kowal.jpg"
+                    src="https://mpd-biblio-covers.imgix.net/9781466861244.jpg"
                     alt="The Calculating Stars"
                     className="w-full h-full object-contain p-4"
                   />
@@ -499,7 +502,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/Moon-Tere Liye.jpg"
+                    src="https://inc.mizanstore.com/aassets/img/com_cart/produk/moon-edisi-inggris-bulan.jpg"
                     alt="Moon"
                     className="w-full h-full object-contain p-4"
                   />
@@ -536,7 +539,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/Laskar Pelangi.jpg"
+                    src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1489732961i/1362193.jpg"
                     alt="Laskar Pelangi"
                     className="w-full h-full object-contain p-4"
                   />
@@ -573,7 +576,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/Rich Dad Book.png"
+                    src="https://www.richdad.com/MediaLibrary/RichDad/Images/3d-books/2020/front-covers/3d-front-RDPD.png"
                     alt="RICH DAD"
                     className="w-full h-full object-contain p-4"
                   />
@@ -610,7 +613,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/steal-like-an-artist-book-review.png"
+                    src="https://www.hachettebookgroup.com/wp-content/uploads/2024/03/9780761185680_3D.png?w=559"
                     alt="STEAL like an"
                     className="w-full h-full object-contain p-4"
                   />
@@ -892,7 +895,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/Change for Success.jpg"
+                    src="https://m.media-amazon.com/images/I/61a5dCqyQRL._AC_UF1000,1000_QL80_.jpg"
                     alt="Embrace Change for Success"
                     className="w-full h-full object-contain p-4"
                   />
@@ -916,7 +919,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/The Frear.jpg"
+                    src="https://m.media-amazon.com/images/I/71Kvtv3PHDL._UF1000,1000_QL80_.jpg"
                     alt="The fear of failure"
                     className="w-full h-full object-contain p-4"
                   />
@@ -940,7 +943,7 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/Harry-Potter.jpg"
+                    src="https://brightspotcdn.byu.edu/dims4/default/841f0c6/2147483647/strip/true/crop/500x762+0+0/resize/500x762!/quality/90/?url=https%3A%2F%2Fbrigham-young-brightspot-us-east-2.s3.us-east-2.amazonaws.com%2F41%2F71%2Fd7d439b4fbd9ccee241416bf8d5c%2Fsorcerors-stone.jpg"
                     alt="Harry Potter"
                     className="w-full h-full object-contain p-4"
                   />
@@ -964,14 +967,14 @@ const Home = () => {
               <div className="bg-white rounded-lg overflow-hidden transition-transform hover:-translate-y-1 shadow-sm">
                 <div className="h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] overflow-hidden relative">
                   <img
-                    src="/assets/TimeWise.webp"
-                    alt="Time Wise"
+                    src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1734472583i/48751243.jpg"
+                    alt="Finding your Life Purpose"
                     className="w-full h-full object-contain p-4"
                   />
                 </div>
                 <div className="p-3 sm:p-4">
                   <h3 className="font-medium text-sm sm:text-base mb-1 line-clamp-1">
-                    Time Wise
+                    Finding your Life Purpose
                   </h3>
                   <p className="text-xs sm:text-sm text-light mb-2 line-clamp-1">
                     By Mark Manson
@@ -1000,7 +1003,7 @@ const Home = () => {
                 </button>
                 <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
                   <img
-                    src="/assets/women-2.jpg"
+                    src="https://img.freepik.com/free-photo/young-ginger-woman-wearing-denim-overalls_273609-19806.jpg?semt=ais_hybrid&w=740"
                     alt="Savannah Nguyen"
                     className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
                   />
@@ -1025,7 +1028,7 @@ const Home = () => {
                 </button>
                 <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
                   <img
-                    src="/assets/men-1.jpg"
+                    src="https://img.freepik.com/free-photo/front-view-man-road-trip_23-2148783487.jpg?semt=ais_hybrid&w=740"
                     alt="Devon Lane"
                     className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
                   />
@@ -1048,7 +1051,7 @@ const Home = () => {
                 </button>
                 <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
                   <img
-                    src="/assets/women-3.jpg"
+                    src="https://img.freepik.com/free-photo/blonde-woman-wearing-big-hat-casual-t-shirt_273609-19941.jpg?semt=ais_hybrid&w=740"
                     alt="Jane Cooper"
                     className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"
                   />
