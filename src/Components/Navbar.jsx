@@ -53,13 +53,13 @@ const Navbar = () => {
               <NavLink to="/cart" className="flex items-center gap-4">
                 <i className="fas fa-shopping-cart text-light" />
               </NavLink>
-              <div>
+              <a href="/profile/agnesti-wulansari">
                 <img
-                  src="https://i.pinimg.com/736x/d4/5e/77/d45e7768a551280b6597d3cb5caa589b.jpg"
+                  src="/anime1.jpg"
                   alt="User profile"
                   className="w-8 h-8 rounded-full object-cover"
                 />
-              </div>
+              </a>
             </div>
 
             {/* Mobile Right Icons */}
@@ -95,13 +95,13 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="mt-4 flex items-center gap-3">
-            <div>
+            <a href="/profile/agnesti-wulansari">
               <img
                 src="https://i.pinimg.com/736x/d4/5e/77/d45e7768a551280b6597d3cb5caa589b.jpg"
                 alt="User profile"
                 className="w-8 h-8 rounded-full object-cover"
               />
-            </div>
+            </a>
           </div>
         </div>
       </div>

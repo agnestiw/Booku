@@ -123,27 +123,18 @@ const Atomic_Habbit = () => {
 
   return (
     <Layout>
-      {/* Mobile Menu Button and Panel (Jika dikelola di sini) */}
-      {/*
-      <button id="mobile-menu-button" onClick={toggleMobileMenu}>
-        <i className={`fa ${isMobileMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
-      </button>
-      <div id="mobile-menu" className={isMobileMenuOpen ? '' : 'hidden'}>
-        {... menu items ...}
-      </div>
-      */}
 
       <div>
         {/* Breadcrumb */}
         <div className="bg-white py-4 border-b border-gray-100 lg:px-24">
           <div className="container mx-auto px-4">
             <div className="flex items-center text-sm">
-              <a href="index.html" className="text-gray-500 hover:text-primary">
+              <a href="/" className="text-gray-500 hover:text-primary">
                 Home
               </a>
               <span className="mx-2 text-gray-400">/</span>
               <a
-                href="catalog.html"
+                href="/catalog"
                 className="text-gray-500 hover:text-primary"
               >
                 Catalog

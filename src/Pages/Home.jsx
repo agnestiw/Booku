@@ -25,9 +25,9 @@ const Home = () => {
                   At Booku, we curate a diverse collection of books.
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button className="bg-primary text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-opacity-90 transition-all shadow-md hover:shadow-lg">
+                  <a href="/register" className="bg-primary text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-opacity-90 transition-all shadow-md hover:shadow-lg">
                     Explore Now <i className="fas fa-arrow-right ml-1" />
-                  </button>
+                  </a>
                 </div>
               </div>
               {/* Book Display */}

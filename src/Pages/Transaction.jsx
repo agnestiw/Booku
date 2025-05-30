@@ -470,9 +470,13 @@ const Transaction = () => {
                       </div>
                     </div>
                     {/* Place Order Button */}
-                    <button className="w-full bg-primary text-white py-3 px-4 rounded-lg hover:bg-opacity-90 transition mb-4 font-medium">
+                    <a
+                      href="/history-transaction"
+                      className="w-full bg-primary text-white py-3 px-4 rounded-lg hover:bg-opacity-90 transition mb-4 font-medium text-center block"
+                    >
                       Place Order
-                    </button>
+                    </a>
+
                     {/* Security Info */}
                     <div className="text-center text-sm text-gray-500">
                       <div className="flex items-center justify-center gap-2 mb-2">
@@ -517,6 +521,11 @@ const Transaction = () => {
                         <img
                           src="https://companieslogo.com/img/orig/BBNI.JK-69fac82a.png?t=1720244490"
                           alt="BNI"
+                          className="h-8 w-auto"
+                        />
+                        <img
+                          src="https://tuwaga.id/wp-content/uploads/2025/01/FI020-_-Line-Bank.png"
+                          alt="Line Bank"
                           className="h-8 w-auto"
                         />
                       </div>

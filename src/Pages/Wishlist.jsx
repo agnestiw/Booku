@@ -508,7 +508,7 @@ const Wishlist = () => {
               Browse our catalog and add books you'd like to read in the future.
             </p>
             <a
-              href="catalog.html"
+              href="/catalog"
               className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-opacity-90 transition inline-block"
             >
               Browse Catalog

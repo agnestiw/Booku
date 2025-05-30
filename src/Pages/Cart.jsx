@@ -39,37 +39,34 @@ const Cart = () => {
                             <img
                               src="https://i0.wp.com/freedom.to/blog/wp-content/uploads/2018/10/Atomic_Habits-2.png?fit=1024%2C1012&ssl=1"
                               alt="Atomic Habits"
-                              className="w-full h-40 sm:h-auto object-cover rounded-md"
+                              className="w-full h-40 sm:h-auto object-contain rounded-md"
                             />
                           </div>
                           <div className="flex-1 flex flex-col">
-                            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4">
-                              <div>
-                                <h3 className="font-bold text-lg mb-1">
-                                  Atomic Habits
-                                </h3>
-                                <p className="text-gray-600 mb-2">
-                                  By James Clear
-                                </p>
-                                <p className="text-sm text-gray-500 mb-2">
-                                  Paperback
-                                </p>
+                            <div className="flex flex-col sm:flex-row sm:justify-between gap-4">
+                              <div className="flex-1">
+                                <h3 className="font-bold text-lg mb-1">Atomic Habits</h3>
+                                <p className="text-gray-600 mb-2">By James Clear</p>
+                                <p className="text-sm text-gray-500 mb-2">Paperback</p>
                                 <div className="flex items-center gap-3 mb-4">
-                                  <span className="text-green-600 text-sm">
-                                    In Stock
-                                  </span>
+                                  <span className="text-green-600 text-sm">In Stock</span>
                                   <span className="bg-primary text-white text-xs px-2 py-1 rounded">
                                     BESTSELLER
                                   </span>
                                 </div>
                               </div>
-                              <div className="flex flex-col items-start sm:items-end gap-2">
-                                <span className="font-bold text-lg">
-                                  $18.99
-                                </span>
+                              <div className="flex flex-row sm:flex-col justify-between sm:items-end gap-2">
+                                <div className="flex items-center gap-2">
+                                  <span className="text-sm text-gray-500">Price:</span>
+                                  <span className="font-bold text-lg">$18.99</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                  <span className="text-sm text-gray-500">Total:</span>
+                                  <span className="font-bold text-lg text-primary">$18.99</span>
+                                </div>
                               </div>
                             </div>
-                            <div className="mt-auto flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+                            <div className="mt-4 sm:mt-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                               <div className="flex items-center">
                                 <span className="text-gray-600 mr-3">Qty:</span>
                                 <div className="flex items-center border border-gray-300 rounded">
@@ -84,14 +81,14 @@ const Cart = () => {
                                   </button>
                                 </div>
                               </div>
-                              <div className="flex gap-3">
+                              <div className="flex gap-3 w-full sm:w-auto justify-between sm:justify-end">
                                 <button className="text-gray-500 hover:text-primary flex items-center gap-1">
                                   <i className="far fa-heart" />
-                                  <span>Save for Later</span>
+                                  <span className="hidden sm:inline">Save for Later</span>
                                 </button>
                                 <button className="text-gray-500 hover:text-red-500 flex items-center gap-1">
                                   <i className="far fa-trash-alt" />
-                                  <span>Remove</span>
+                                  <span className="hidden sm:inline">Remove</span>
                                 </button>
                               </div>
                             </div>
@@ -105,7 +102,7 @@ const Cart = () => {
                             <img
                               src="https://bookpadho.com/wp-content/uploads/2025/02/1740040199.png"
                               alt="The Psychology of Money"
-                              className="w-full h-40 sm:h-auto object-cover rounded-md"
+                              className="w-full h-40 sm:h-auto object-contain rounded-md"
                             />
                           </div>
                           <div className="flex-1 flex flex-col">
@@ -176,7 +173,7 @@ const Cart = () => {
                             <img
                               src="https://www.ynharari.com/wp-content/uploads/2017/01/sapiens.png"
                               alt="Sapiens"
-                              className="w-full h-40 sm:h-auto object-cover rounded-md"
+                              className="w-full h-40 sm:h-auto object-contain rounded-md"
                             />
                           </div>
                           <div className="flex-1 flex flex-col">
@@ -255,7 +252,7 @@ const Cart = () => {
                             <img
                               src="https://www.richdad.com/MediaLibrary/RichDad/Images/3d-books/2020/front-covers/3d-front-RDPD.png"
                               alt="Rich Dad Poor Dad"
-                              className="w-full h-40 sm:h-auto object-cover rounded-md"
+                              className="w-full h-40 sm:h-auto object-contain rounded-md"
                             />
                           </div>
                           <div className="flex-1 flex flex-col">
@@ -380,11 +377,11 @@ const Cart = () => {
                           </button>
                         </div>
                       </div>
-                      <a href="/transaction" className="w-full block text-center border bg-primary border-gray-300 text-white py-3 px-4 rounded-lg">
+                      <a href="/transaction" className="w-full block text-center border bg-primary text-white py-3 px-4 rounded-lg">
                          Proceed to Checkout
                       </a>
                       <a
-                        href="catalog.html"
+                        href="/catalog"
                         className="w-full block text-center border border-gray-300 text-gray-600 py-3 px-4 rounded-lg hover:bg-gray-50 transition"
                       >
                         Continue Shopping
@@ -488,7 +485,7 @@ const Cart = () => {
                     </div>
                     <span className="text-sm">4.7</span>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="lg:flex lg:justify-between md:items-center">
                     <div>
                       <span className="font-bold">$16.99</span>
                       <span className="text-gray-400 text-sm line-through ml-1">
@@ -530,7 +527,7 @@ const Cart = () => {
                     </div>
                     <span className="text-sm">4.0</span>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="lg:flex lg:justify-between md:items-center">
                     <span className="font-bold">$14.99</span>
                     <button className="bg-primary text-white px-3 py-1.5 rounded text-sm hover:bg-opacity-90">
                       Add to cart
@@ -567,7 +564,7 @@ const Cart = () => {
                     </div>
                     <span className="text-sm">5.0</span>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="lg:flex lg:justify-between md:items-center">
                     <span className="font-bold">$12.99</span>
                     <button className="bg-primary text-white px-3 py-1.5 rounded text-sm hover:bg-opacity-90">
                       Add to cart
@@ -581,7 +578,7 @@ const Cart = () => {
                   <img
                     src="https://images.squarespace-cdn.com/content/v1/6398d94cae7504477c095dde/1670972384359-1W08K5N4XZ6IAPLD3YOX/Coel_The%2BAlchemist_3D.png?format=2500w"
                     alt="The Alchemist"
-                    className="w-full h-[180px] sm:h-[220px] object-cover"
+                    className="w-full h-[180px] sm:h-[220px] object-contain"
                   />
                   <button className="absolute top-2 right-2 bg-white p-1.5 rounded-full shadow-sm hover:text-primary">
                     <i className="far fa-heart" />
@@ -604,7 +601,7 @@ const Cart = () => {
                     </div>
                     <span className="text-sm">4.6</span>
                   </div>
-                  <div className="flex justify-between items-center">
+                  <div className="lg:flex lg:justify-between md:items-center">
                     <span className="font-bold">$11.99</span>
                     <button className="bg-primary text-white px-3 py-1.5 rounded text-sm hover:bg-opacity-90">
                       Add to cart
