@@ -619,7 +619,7 @@ const Atomic_Habbit = () => {
                     <img
                       src={book.imgSrc}
                       alt={book.name}
-                      className="w-full h-[180px] sm:h-[220px] object-cover" // Gunakan object-cover atau object-contain sesuai kebutuhan
+                      className="w-full h-[180px] sm:h-[220px] object-cover lg:object-contain md:object-contain"
                     />
                     <button
                       onClick={() => toggleRecommendedBookWishlist(book.id)}
@@ -651,7 +651,7 @@ const Atomic_Habbit = () => {
                       </div>
                       <span className="text-sm">{book.rating.toFixed(1)}</span>
                     </div>
-                    <div className="flex justify-between items-center">
+                    <div className="lg:flex justify-between items-center">
                       <div>
                         <span className="font-bold">{book.price}</span>
                         {book.oldPrice && (

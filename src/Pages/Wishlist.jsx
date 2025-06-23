@@ -71,7 +71,7 @@ const Wishlist = () => {
                   <img
                     src="https://i0.wp.com/freedom.to/blog/wp-content/uploads/2018/10/Atomic_Habits-2.png?fit=1024%2C1012&ssl=1"
                     alt="Atomic Habits"
-                    className="w-full h-[200px] sm:h-[220px] object-cover"
+                    className="w-full h-[200px] sm:h-[220px] object-contain"
                   />
                 </div>
                 <div className="p-4 sm:p-6 flex-1 flex flex-col">
@@ -516,7 +516,7 @@ const Wishlist = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Recommended Books */}
       <section className="pt-10 mb-8 sm:pt-16 pb-5 lg:px-24 bg-white">
         <div className="container mx-auto px-4">
@@ -553,8 +553,8 @@ const Wishlist = () => {
                   </div>
                   <span className="text-sm">5.0</span>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-bold">$9.99</span>
+                <div className="flex flex-col items-start md:flex-row md:justify-between md:items-start">
+                  <span className="font-bold mb-2 md:mb-0">$9.99</span>
                   <button className="bg-primary text-white px-3 py-1.5 rounded text-sm hover:bg-opacity-90">
                     Add to cart
                   </button>
@@ -590,8 +590,8 @@ const Wishlist = () => {
                   </div>
                   <span className="text-sm">4.0</span>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-bold">$8.99</span>
+                <div className="flex flex-col items-start md:flex-row md:justify-between md:items-start">
+                  <span className="font-bold mb-2 md:mb-0">$8.99</span>
                   <button className="bg-primary text-white px-3 py-1.5 rounded text-sm hover:bg-opacity-90">
                     Add to cart
                   </button>
@@ -630,8 +630,8 @@ const Wishlist = () => {
                   </div>
                   <span className="text-sm">4.7</span>
                 </div>
-                <div className="flex justify-between items-center">
-                  <span className="font-bold">$7.99</span>
+                <div className="flex flex-col items-start md:flex-row md:justify-between md:items-start">
+                  <span className="font-bold mb-2 md:mb-0">$7.99</span>
                   <button className="bg-primary text-white px-3 py-1.5 rounded text-sm hover:bg-opacity-90">
                     Add to cart
                   </button>
@@ -670,8 +670,8 @@ const Wishlist = () => {
                   </div>
                   <span className="text-sm">4.8</span>
                 </div>
-                <div className="flex justify-between items-center">
-                  <div>
+                <div className="flex flex-col items-start md:flex-row md:justify-between md:items-start">
+                  <div className="mb-2 md:mb-0">
                     <span className="font-bold">$10.79</span>
                     <span className="text-gray-400 text-sm line-through ml-1">
                       $11.99

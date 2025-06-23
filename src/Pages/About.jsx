@@ -24,9 +24,9 @@ const About = () => {
           </div>
         </section>
         {/* Our Story Section */}
-        <section className="py-12 md:py-16">
+        <section className="py-12 md:py-16 lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <div>
                   <h2 className="text-2xl md:text-3xl font-bold mb-6">
@@ -68,9 +68,9 @@ const About = () => {
           </div>
         </section>
         {/* Mission & Vision Section */}
-        <section className="py-12 md:py-16 bg-white">
+        <section className="py-12 md:py-16 bg-white lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
                   Our Mission &amp; Vision
@@ -112,9 +112,9 @@ const About = () => {
           </div>
         </section>
         {/* Values Section */}
-        <section className="py-12 md:py-16">
+        <section className="py-12 md:py-16 lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
                   Our Values
@@ -198,9 +198,9 @@ const About = () => {
           </div>
         </section>
         {/* Team Section */}
-        <section className="py-12 md:py-16 bg-white">
+        <section className="py-12 md:py-16 bg-white lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
                   Meet Our Team
@@ -349,9 +349,9 @@ const About = () => {
           </div>
         </section>
         {/* Statistics Section */}
-        <section className="py-12 md:py-16 bg-primary text-white">
+        <section className="py-12 md:py-16 bg-primary text-white lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
                   Our Impact in Numbers
@@ -391,9 +391,9 @@ const About = () => {
           </div>
         </section>
         {/* Awards & Recognition Section */}
-        <section className="py-12 md:py-16 bg-white">
+        <section className="py-12 md:py-16 bg-white lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="mx-auto">
               <div className="text-center mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
                   Awards &amp; Recognition
@@ -439,9 +439,9 @@ const About = () => {
           </div>
         </section>
         {/* Contact CTA Section */}
-        <section className="py-12 md:py-16 bg-gray-50">
+        <section className="py-12 md:py-16 bg-gray-50 lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
+            <div className="mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
                 Get in Touch
               </h2>
@@ -496,9 +496,9 @@ const About = () => {
           </div>
         </section>
         {/* Newsletter Section */}
-        <section className="py-12">
+        <section className="py-12 lg:px-24">
           <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">
                 Stay Connected
               </h2>

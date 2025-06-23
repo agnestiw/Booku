@@ -58,8 +58,9 @@ const Article = () => {
                     life and immerse ourselves in different worlds,
                     perspectives, and ideas.
                   </p>
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="flex items-center gap-2">
+                  <div className="flex flex-col items-start gap-2 mb-6 md:flex-row md:items-center md:gap-4">
+                    {/* Grup Penulis */}
+                    <div className="flex mb-4 md:mb-0 lg:mb-0 items-center gap-2">
                       <img
                         src="https://img.freepik.com/free-photo/horizontal-shot-indifferent-confused-lady-keeps-hands-crossed-purses-lips-feels-uncertain_273609-18790.jpg?uid=R130501221&ga=GA1.1.435624309.1743227928&semt=ais_hybrid&w=740"
                         alt="Author"
@@ -67,13 +68,18 @@ const Article = () => {
                       />
                       <span className="text-gray-600">Sarah Johnson</span>
                     </div>
-                    <div className="flex items-center gap-2 text-gray-600">
-                      <i className="far fa-calendar" />
-                      <span>May 10, 2025</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-gray-600">
-                      <i className="far fa-clock" />
-                      <span>8 min read</span>
+                    {/* Div baru untuk membungkus Tanggal dan Waktu Baca */}
+                    <div className="flex flex-row items-center gap-4">
+                      {/* Grup Tanggal */}
+                      <div className="flex items-center gap-2 text-gray-600">
+                        <i className="far fa-calendar" />
+                        <span>May 10, 2025</span>
+                      </div>
+                      {/* Grup Waktu Baca */}
+                      <div className="flex items-center gap-2 text-gray-600">
+                        <i className="far fa-clock" />
+                        <span>8 min read</span>
+                      </div>
                     </div>
                   </div>
                   <a

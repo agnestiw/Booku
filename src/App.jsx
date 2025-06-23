@@ -8,7 +8,6 @@ import Cart from "./Pages/Cart";
 import Atomic_Habbit from "./Pages/Book-detail/Atomic_Habits";
 import Article_detail_1 from "./Pages/Article-detail/Article_detail_1";
 import Transaction from "./Pages/Transaction";
-import History_transaction from "./Pages/History_transaction";
 import Register from "./Pages/Register";
 import Login from "./Pages/Login";
 import Profile from "./Pages/Profile";
@@ -37,7 +36,6 @@ function App() {
         <Route path="/profile/agnesti-wulansari/edit" element={<Edit_Profile />}></Route>
 
         <Route path="/transaction" element={<Transaction />}></Route>
-        <Route path="/history-transaction" element={<History_transaction />}></Route>
 
         {/* detail book */}
         <Route path="/Atomic-Habits" element={<Atomic_Habbit />}></Route>

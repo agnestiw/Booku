@@ -147,7 +147,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$32</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -181,7 +181,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$32</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -215,7 +215,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$32</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -249,7 +249,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$32</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -372,7 +372,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -406,7 +406,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -440,7 +440,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -474,7 +474,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -529,7 +529,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -566,7 +566,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -603,7 +603,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -640,7 +640,7 @@ const Home = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -909,7 +909,7 @@ const Home = () => {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -933,7 +933,7 @@ const Home = () => {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -957,7 +957,7 @@ const Home = () => {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
@@ -981,7 +981,7 @@ const Home = () => {
                   </p>
                   <div className="flex justify-between items-center">
                     <span className="font-bold text-sm sm:text-base">$35</span>
-                    <button className="bg-gray-100 text-dark px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
+                    <button className="bg-primary text-white px-2 py-1 sm:px-3 sm:py-2 rounded text-xs sm:text-sm hover:bg-gray-200">
                       Add to cart
                     </button>
                   </div>
