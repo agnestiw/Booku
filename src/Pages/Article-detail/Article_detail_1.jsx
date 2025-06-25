@@ -563,7 +563,7 @@ const Article_detail_1 = () => {
               <div className="bg-white rounded-lg overflow-hidden shadow-sm transition-transform hover:-translate-y-1">
                 <div className="relative">
                   <img
-                    src="https://kidsreadnow.org/wp-content/uploads/2020/11/bigstock-happy-loving-family-pretty-yo-364803322.jpg"
+                    src="https://www.brighthorizons.com/-/media/bh-new/enews-images/widen-180906-b2e-3444-reading-with-kids-1155x867.ashx?as=1"
                     alt="Article"
                     className="w-full h-48 object-cover"
                   />
