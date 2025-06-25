@@ -164,7 +164,7 @@ const Dashboard = () => {
                     <span>12.5% from last month</span>
                   </p>
                 </div>
-                <div className="bg-primary bg-opacity-10 p-3 rounded-lg">
+                <div className="border-orange-400 bg-opacity-10 p-3 rounded-lg">
                   <i className="fas fa-dollar-sign text-primary text-xl" />
                 </div>
               </div>

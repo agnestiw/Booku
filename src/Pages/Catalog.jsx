@@ -32,7 +32,7 @@ const Catalog = () => {
         {/* Main Catalog Section */}
         <section className="py-8 md:py-12">
           <div className="container mx-auto px-4">
-            <div className="flex flex-col lg:flex-row gap-8">
+            <div className="flex flex-col lg:flex-row gap-8 lg:px-24">
               {/* Mobile Filter Toggle */}
               <div className="lg:hidden mb-4">
                 <button

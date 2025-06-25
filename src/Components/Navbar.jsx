@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  // 1. Tambahkan state untuk mengontrol visibilitas menu mobile
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // 2. Buat fungsi untuk toggle state
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <header className="py-4 border-b border-gray-200 sticky top-0 bg-white z-50 lg:px-24">
       <div className="container mx-auto px-4">
@@ -15,6 +23,8 @@ const Navbar = () => {
             <button
               id="mobile-menu-button"
               className="md:hidden text-gray-500 focus:outline-none"
+              // 3. Tambahkan event onClick untuk memanggil fungsi toggle
+              onClick={toggleMobileMenu}
             >
               <i className="fas fa-bars text-xl" />
             </button>
@@ -70,7 +80,13 @@ const Navbar = () => {
         </nav>
 
         {/* Mobile Navigation Menu */}
-        <div id="mobile-menu" className="hidden md:hidden mt-4 pb-4">
+        {/* 4. Gunakan state untuk menampilkan atau menyembunyikan menu */}
+        <div
+          id="mobile-menu"
+          className={`${
+            isMobileMenuOpen ? "block" : "hidden"
+          } md:hidden mt-4 pb-4`}
+        >
           <ul className="flex flex-col gap-4">
             {[
               { to: "/", label: "Home", end: true },
@@ -83,6 +99,7 @@ const Navbar = () => {
                 <NavLink
                   to={to}
                   end={end}
+                  onClick={() => setIsMobileMenuOpen(false)} // Opsional: tutup menu setelah link diklik
                   className={({ isActive }) =>
                     isActive
                       ? "text-primary font-semibold block"
